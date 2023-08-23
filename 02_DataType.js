@@ -38,6 +38,18 @@ object =>special type
  //also can convert number to string
 
 
+ /********************************************************************************************************* */
+ //data type mainly  devide into two type on the basic of access and push data in memory
+ // primitive
+  String ,Number,Boolean,null,undefined,Symbol,BigInt
+ //non-primitive or reference
+  Array,Object,Function
+  //**js is Dynamically typed language-> the data type of variables are determind by the value not by programmer */
+
+
+
+
+
 
 
 
