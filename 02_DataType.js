@@ -46,6 +46,24 @@ object =>special type
   Array,Object,Function
   //**js is Dynamically typed language-> the data type of variables are determind by the value not by programmer */
 
+  /************************************************************************************************************************ */
+  //stack(primitive)  heap(non-primitive)
+  let myname="tarun"
+  let anothername=myname;
+ anothername="Tarun dalbera" 
+ console.log(myname);
+ console.log(anothername); //stack it pass the copy to another variable
+
+ let userone={   //object 
+    email:"user@email.com",
+    mobile:456398214,
+ }
+ let usertwo=userone;
+ usertwo.email="tarun@email.com"
+ console.log(userone.email); //tarundalbera@gmail.com
+ console.log(usertwo.email);
+ //heap memory give reference to variable 
+
 
 
 
