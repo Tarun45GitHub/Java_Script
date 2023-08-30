@@ -1,6 +1,5 @@
-//singleton ->when object creat by constructor
-//object.creat
 
+/*
 //object literals
 const symb=Symbol("key1")
 const mys=Symbol("key")
@@ -29,3 +28,38 @@ console.log(user["email"]);
 //Object.freeze(user) //freez value and key
 // user["email"]="tarun@gmail.com"
 // console.log(user);
+//************************************************************************************************************************** */
+//singleton ->when object creat by constructor
+//object.creat
+/*
+const obj1={
+    1:"a",
+    2:"b"
+}
+const obj2={
+    3:"c",
+    4:"d"
+}
+// const obj3={obj1,obj2};//not concatinate
+// const obj3=Object.assign({}, obj1,obj2) //add obj1 and obj2 in obj3
+const obj3={...obj1,...obj2} //most usefull sprade oparetor
+console.log(obj3);
+console.log(Object.keys(obj1));
+console.log(Object.values(obj1));
+console.log(Object.entries(obj3));
+*/
+//******************************************************************************************** */
+
+const clas={
+    name:"Tarun",
+    roll:45,
+    dept:"it"
+}
+const{dept}=clas;
+console.log(dept); //can acess with out object name
+
+//jason
+{
+    name:"Tarun Dalbera"
+    
+}
