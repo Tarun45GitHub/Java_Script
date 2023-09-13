@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom_project-1</title>
+    <style>
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            border: 1px solid black;
+            width: 3rem;
+            height: 3rem;
+            margin: 5px;
+            text-align: center;
+           
+        }
+        .contain{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        
+        }
+        #box1{
+            background-color: red;
+        }
+        #box2{
+            background-color: blue;
+        }
+        #box3{
+            background-color: yellow;
+        }
+        #box4{
+            background-color:green;
+          
+        }
+        #box5{
+            background-color:black;
+            color: white;
+          
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Color Scheme Switcher</h1>
+        <div class="contain">
+            <div class="box" id="box1">red</div>
+            <div class="box" id="box2">blue</div>
+            <div class="box" id="box3">yellow</div>
+            <div class="box" id="box4">green</div>
+            <div class="box" id="box5">black</div>
+            
+        </div>
+        <h5>Try click on the Color above to change the background color</h5>
+    </div>
+    
+</body>
+<script>
+    const box=document.querySelectorAll(".box")
+    const body=document.querySelector("body")
+    box.forEach((button)=>{
+        button.addEventListener('click',(color)=>{
+            body.style.backgroundColor= color.target.innerHTML
+        })
+    })
+        
 
+    
+</script>
+</html>
