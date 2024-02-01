@@ -1,4 +1,5 @@
 console.log("1"==1); //not good pratice
+console.log("01">=1);
 //alaways compare in same data type
 
 console.log(null>0); //false

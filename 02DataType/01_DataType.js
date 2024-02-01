@@ -1,6 +1,6 @@
 "use strict" //treat all Js code as newer version
 
-//alert("ok")  //it run in browser not in nodejs
+// alert("ok")  //it run in browser not in nodejs
  
 // console.log(3+
 //     3); console.log("tarun"); //bad practice
@@ -11,15 +11,15 @@ let name="tarun";
 let isLogged=true
 
 /*different datatype
-number=> range2^53
+number=> range 2^53
 string =>""
 boolean=> true/false
-null=> standalone value
+null=> standalone value (empty)
 undefined=> value not defined
 symbol=>
-
 object =>special type
 */
+
 // console.table([typeof number,typeof name,typeof isLogged]) //typeof use define type of datatype
 // console.log(typeof null); //object type
 // console.log(typeof undefined); //undefined type
@@ -40,7 +40,7 @@ object =>special type
 
  /********************************************************************************************************* */
  //data type mainly  devide into two type on the basic of access and push data in memory
- // primitive
+ // primitive -> it send the copy of the value
   String ,Number,Boolean,null,undefined,Symbol,BigInt
  //non-primitive or reference
   Array,Object,Function
