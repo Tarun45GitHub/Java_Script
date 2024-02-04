@@ -1,3 +1,4 @@
+// console.log(this);
 /*
 const user={
     name:"Tarun",
@@ -14,32 +15,27 @@ console.log(this);  //Null object
 //value of "this"in browser  window
 //so  the global object in browser is window
 */
-/*
+
 function one(){
-    let one="1"
-    console.log(this.one); //this keyword  not workin this function
+    let one="1";
+    // console.log(this); //not empty object
+    // console.log(this.one); //this keyword  not workin this function
 }
 one();
-*/
-/*
-const two  =function(){
-     let two="2"
-    console.log(this.two); //this keyword  not workin this function
-}
-two()
-*/
-/*
-const three=()=>{
+
+
+
+const three=()=>{ //arrow function
     let three="2"
-    console.log(this.three);
-    console.log(this);
+    // console.log(this.three);  //undefined
+    // console.log(this);  //empty object
 } 
 three();
-*/
+
 //const addtwo =(num1,num2) => num1+num2
-const addtwo =(num1,num2) => (num1+num2) //parenthasis important
+const addtwo =(num1,num2) => (num1+num2) //parenthasis important -> do not have to write return ,is called implesite return;
 const name=() => ({username: "Tarun"})  //object under arrow function
 
 
-console.log(addtwo(5,6));
-console.log(name());
+// console.log(addtwo(5,6));
+// console.log(name());
