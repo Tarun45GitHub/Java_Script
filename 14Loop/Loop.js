@@ -43,7 +43,7 @@ map.set('a',1)
 map.set('b',2)
 map.set('c',3)
 map.set('a',1)
-//console.log(map);
+// console.log(map);
 
 for (const [key,value] of map) {
    // console.log(key,"->",value);
@@ -72,18 +72,3 @@ arr3.forEach( (index,key,arr) =>{
    // console.log(index,key,arr);
 })
 
-//Filter
-const codding=[7,4,5,7]
- const num=codding.forEach((item)=>
-{
-   // console.log(item);
-    return item;
-}
-)
-//console.log(num); //for each not return any thing
-const nums=[1,3,5,9,6,10]
-//const number=nums.filter((item)=>item>4)
-const number=nums.filter((item)=>{
-    return item>4;
-})
-console.log(number);
