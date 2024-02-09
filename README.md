@@ -1,3 +1,4 @@
 # Java_Script
 ## what is Javascript ?
 - JavaScript is a scripting or programming language that allows you to implement complex features on web pages,
+- java script synchronous ,single threaded

@@ -65,8 +65,11 @@
 <script>
     const box=document.querySelectorAll(".box")
     const body=document.querySelector("body")
+
     box.forEach((button)=>{
+        console.log(button);
         button.addEventListener('click',(color)=>{
+            console.log(color);
             body.style.backgroundColor= color.target.innerHTML
         })
     })

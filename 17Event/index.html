@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-event</title>
+</head>
+<body>
+    <h2>Javascript - Event</h2>
+    <ul>
+        <li ><h3 id="Tarun">Tarun</h3></li>
+        <li id="Dalbera">Dalbera</li>
+    </ul>
+    
+</body>
+<script>
+    // document.querySelector('#Tarun').onclick=function(){
+    //     alert('Tarun clicked');
+    // }
+
+    document.querySelector('#Tarun').addEventListener('click',function(e){
+       console.log(e);
+        alert('clicked')
+        // e.stopPropagation()
+    },false)  //false ->event propagation(useCapture) bubbling capturing
+
+
+    //type,timeStamp,defaultprevented,target,toElement,srcElement,
+    // currentTarget,clintX,clintY,screenX,screenY,
+    // altkey,ctrlkey,shiftkey,keycode
+
+
+</script>
+</html>
