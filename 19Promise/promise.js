@@ -28,7 +28,7 @@ const PromiseThree=new Promise(function(reslove,reject){
         reslove({FirstName:"Tarun",LastName:"Dalbera"})
     },1000)
 })
-PromiseThree.then(function(user){ // can acess reslove data also
+PromiseThree.then(function(user){ // can acess reslove data also19
     console.log(user);
 })
 
@@ -83,11 +83,11 @@ consumePromiseFive();
 /****************fetch************************ */
 async function getData(){
     try {
-        const response=await fetch('https://github.com/Tarun45GitHub/Project.git')
-        const data=await response.json();
-        console.log(data);
+        const response=await fetch('https://github.com/Tarun45GitHub/Java_Script')
+        // const data=await response.json();
+        console.log(response);
     } catch (error) {
-        console.log("ERROR");
+        console.log("E",error);
     }
 }
 getData();
