@@ -35,6 +35,8 @@ object =>special type
  //"33"(string)=>33(number)
  //"33q"(string)=>NaN(number)
  //true/false(boolean)=>1/0(number)
+ //null(object)=>0(number)
+ //undefine(object)=> NaN(number)
  //also can convert number to string
 
 
