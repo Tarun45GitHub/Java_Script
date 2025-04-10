@@ -31,3 +31,9 @@ console.log(result);
 ```
 **Ans:** 24
 
+## higher order functon:
+- that function can take a functon as input and return a function as output
+- example: map , forEach ,filter
+## differenc between map and foreach
+- forEach have no return value
+- map return a new array

@@ -49,7 +49,7 @@ for (const [key,value] of map) {
    // console.log(key,"->",value);
 }
 
-//Forin
+//Forin  for object
 const myobj={
     js:"JavaScript",
     cpp:"c++/c",

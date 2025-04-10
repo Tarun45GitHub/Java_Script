@@ -37,6 +37,7 @@ function one(){
 one()
 */
 /*
+//hoisting
 console.log(addone(5)); //This type function can acess before declaration
  function addone(num){
     return num+1;

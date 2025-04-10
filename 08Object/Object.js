@@ -1,4 +1,4 @@
-
+//singleton objects create when objects create by constructor(object.create)
 
 //object literals
 const symb=Symbol("key1")
@@ -8,7 +8,7 @@ const user={
     name: "Tarun" ,//can also define by key and value
     age:20,        //behind the seen is track like "age"
     email:"tarun@google.com",
-    "location":"kharakpur",
+    "location":"kharakpur",  //location can not acess by dot(.)
      symb:"key2" ,//it can not symbol it is a string
     [mys]:"key3"
 
@@ -16,7 +16,6 @@ const user={
 // console.log(user.age);
 //another type of access
 // console.log(user["email"]);
-//location can not acess by dot(.)
 // console.log(user["location"]);
 // console.log(typeof user.symb);//it is string
 // console.log(user.mys);  //it also can't acess by dot
@@ -40,6 +39,10 @@ user.funTwo=function(){
 //************************************************************************************************************************** */
 //singleton ->when object creat by constructor
 //object.creat
+// let obj=new Object() //singleton object 
+// let obj={}  //non-singleton object
+// console.log(obj);
+
 
 const obj1={
     1:"a",

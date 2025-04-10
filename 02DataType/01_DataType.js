@@ -43,9 +43,9 @@ object =>special type
  /********************************************************************************************************* */
  //data type mainly  devide into two type on the basic of access and push data in memory
  // primitive -> it send the copy of the value
-  String ,Number,Boolean,null,undefined,Symbol,BigInt
+//   String ,Number,Boolean,null,undefined,Symbol,BigInt
  //non-primitive or reference
-  Array,Object,Function
+//   Array,Object,Function
   //**js is Dynamically typed language-> the data type of variables are determind by the value not by programmer */
 
   /************************************************************************************************************************ */

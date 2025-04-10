@@ -6,6 +6,6 @@ console.log(null>0); //false
 console.log(null==0); //false
 console.log(null>=0); //but true
 //Reason is equality check == and comparisons <,>,<=,>= work differently
-//comparison convert null to a number
+//comparison convert null to 0 (number)
 
 //=== strick check -> can not convert

@@ -1,6 +1,8 @@
 let D1=new Date();
 console.log(D1);
+console.log(D1.toString());
 console.log(D1.toDateString());
+console.log(D1.toLocaleString());
 console.log(D1.toLocaleTimeString());
 console.log(D1.toJSON());
 console.log(typeof D1);

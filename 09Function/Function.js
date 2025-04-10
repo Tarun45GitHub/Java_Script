@@ -63,7 +63,7 @@ printuser("Tarun")
 printuser();  //use definations value
 */
 /*
-function claculateprice( num1,...num){
+function claculateprice( num1,...num){ //rest oparetor
     
     return num;
 }
@@ -78,3 +78,14 @@ console.log(arrayfunction(myArray));
 console.log(arrayfunction([5,6,8]));
 */
 //same as object can use in function
+let product={
+    name:"acdf",
+    price:"600"
+}
+// function handelproduct({name,prices}){
+//     console.log(`the product name is ${name} and the price ${prices}`);
+// }
+function handelproduct(product){
+    console.log(`the product name is ${product.name} and the price ${product.price}`);
+}
+handelproduct(product)
